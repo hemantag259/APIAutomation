@@ -10,8 +10,8 @@ https://maven.apache.org/xsd/maven-4.0.0.xsd
 ">
 
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.workpulse.api</groupId>
-  <artifactId>auditapi</artifactId>
+  <groupId>ApiAutomation</groupId>
+  <artifactId>ApiAutomation</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
    <dependencies>
