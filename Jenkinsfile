@@ -20,7 +20,7 @@ pipeline {
                        alwaysLinkToLastBuild: false, 
                        keepAll: false, 
                        reportDir: 'Reports', 
-                       reportFiles: 'Spark.html', 
+                       reportFiles: 'index.html', 
                        reportName: 'HTML Report', 
                        reportTitles: '', 
                        useWrapperFileDirectly: true])
