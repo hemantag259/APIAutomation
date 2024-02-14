@@ -19,8 +19,8 @@ pipeline {
                        allowMissing: false, 
                        alwaysLinkToLastBuild: false, 
                        keepAll: false, 
-                       reportDir: 'target/surefire-reports/', 
-                       reportFiles: 'emailable-report.html', 
+                       reportDir: 'Reports', 
+                       reportFiles: 'Spark.html', 
                        reportName: 'HTML Report', 
                        reportTitles: '', 
                        useWrapperFileDirectly: true])
