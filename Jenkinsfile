@@ -16,15 +16,7 @@ pipeline {
                 // failed, record the test results and archive the jar file.
                 success {
                     echo "Report"
-                   publishHTML([
-                       allowMissing: false, 
-                       alwaysLinkToLastBuild: false, 
-                       keepAll: false, 
-                       reportDir: 'Reports', 
-                       reportFiles: 'index.html', 
-                       reportName: 'HTML Report', 
-                       reportTitles: '', 
-                       useWrapperFileDirectly: true])
+                  archiveArtifacts artifacts: 'Reports/index.html', followSymlinks: false
                 }
             }
         }
