@@ -39,5 +39,6 @@
   "customerAccessId": null,
   "customerLocationId": null,
   "expenseFormat": "",
-  "asset": null
+  "asset": null,
+  "sourceTypeId":3
 }
